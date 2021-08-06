@@ -5,6 +5,11 @@ const HomeScreen = ({navigation}) => {
   return (
     <View>
       <Text style={styles.text}>🚀 Hello 🚀</Text>
+      <Button
+        style={styles.Button}
+        onPress={() => navigation.navigate('Components')}
+        title='Go to Components Demo'
+      />
     </View>
   );
 };
